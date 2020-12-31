@@ -1,0 +1,5 @@
+---
+# There is no non hacky way to deal with this
+- name: Alert logout
+  debug:
+    msg: "You must reboot for {{ ansible_user_id }} to run virtual machine manager.  I thought is was logging out but it took a full reboot"

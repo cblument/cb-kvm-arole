@@ -1,0 +1,23 @@
+galaxy_info:
+  author: Chris Blumentritt
+  description: Install kvm on a machine
+  company: your company (optional)
+
+  # If the issue tracker for your role is not on github, uncomment the
+  # next line and provide a value
+  # issue_tracker_url: http://example.com/issue/tracker
+
+  # Choose a valid license ID from https://spdx.org - some suggested licenses:
+  license: BSD
+
+  min_ansible_version: 2.9
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - groovy
+
+  galaxy_tags:
+  - kvm
+
+dependencies: []
